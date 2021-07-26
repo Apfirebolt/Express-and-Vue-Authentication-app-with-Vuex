@@ -5,7 +5,6 @@ import {
   registerUser,
   getUserProfile,
   updateUserProfile,
-  updateUser,
 } from '../controllers/userController.js'
 import { protect } from '../middleware/authMiddleware.js'
 
@@ -17,6 +16,5 @@ router
   .put(protect, updateUserProfile)
 router
   .route('/:id')
-  .put(protect, updateUser)
 
 export default router

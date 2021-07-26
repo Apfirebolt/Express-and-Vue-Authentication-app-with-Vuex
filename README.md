@@ -10,9 +10,9 @@ https://bootswatch.com/ is used to get a custom free theme made on top of Bootst
 ## Built With
 
 * [Express](https://expressjs.com/)
-* [React](https://reactjs.org/)
+* [Vue](https://reactjs.org/)
 * [MongoDB](https://www.mongodb.com/)
-* [Bootstrap](https://getbootstrap.com/)
+* [Tailwind CSS](https://getbootstrap.com/)
 
 ## Authors
 
