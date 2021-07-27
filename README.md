@@ -2,7 +2,7 @@
 
 ## Project Briefing
 
-This is a simple boilerplate to get you started with full stack applications using Express and React, MongoDB is used as database and bootstrap css is used for UI. Yes, it's created in one of the most popular full stack technologies combination known as MERN. 
+This is a simple boilerplate to get you started with full stack applications using Express and Vue, MongoDB is used as database and bootstrap css is used for UI. Yes, it's created in one of the most popular full stack technologies combination known as MEVN. 
 
 https://bootswatch.com/ is used to get a custom free theme made on top of Bootstrap. This is inspired by a Udemy Course by Brad Traversy and the project which it had. I'm basically using just the authentication part of it and modified the theme.
 
@@ -40,12 +40,12 @@ npm start
 
 Please find some of the screenshots of the application. Below is the screenshot of the Home page.
 
-![alt text](./screenshots/1.png)
+![alt text](./screenshots/dashboard.png)
 
 Sign up page.
 
-![alt text](./screenshots/3.png)
+![alt text](./screenshots/register.png)
 
 Login page.
 
-![alt text](./screenshots/2.png)
+![alt text](./screenshots/login.png)
