@@ -2,7 +2,7 @@
 
 ## Project Briefing
 
-This is a simple boilerplate to get you started with full stack applications using Express and Vue, MongoDB is used as database and bootstrap css is used for UI. Yes, it's created in one of the most popular full stack technologies combination known as MEVN. 
+This is a simple boilerplate to get you started with full stack applications using Express and Vue, MongoDB is used as database and tailwind css is used for UI. Yes, it's created in one of the most popular full stack technologies combination known as MEVN. 
 
 
 ## Built With
