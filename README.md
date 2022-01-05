@@ -35,6 +35,11 @@ npm run build
 npm start
 ```
 
+## Project Updates
+
+- Minor fixes where nested routes was not working.
+- Added Ejs template engine for rendering templates in Express and EJS aside from the Vue build in production.
+
 ## Project Screenshots
 
 Please find some of the screenshots of the application. Below is the screenshot of the Home page.

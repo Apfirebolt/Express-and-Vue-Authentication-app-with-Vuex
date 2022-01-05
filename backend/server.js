@@ -20,10 +20,14 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(express.json())
 
+const __dirname = path.resolve()
+// set the view engine to ejs and views directory
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, '/backend/views'));
+
 app.use('/api/users', userRoutes)
 app.use('/api/upload', uploadRoutes)
 
-const __dirname = path.resolve()
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 
 if (process.env.NODE_ENV === 'production') {
@@ -37,6 +41,11 @@ if (process.env.NODE_ENV === 'production') {
     res.send('API is running....')
   })
 }
+
+// sample page
+app.get('/sample', function(req, res) {
+  res.render('sample');
+});
 
 app.use(notFound)
 app.use(errorHandler)
